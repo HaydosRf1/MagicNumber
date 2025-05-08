@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "JB_Crazy";
+    src: url(fonts/JB_Crazy_Font_1697695247096.woff);
+}
+@font-face {
+    font-family: "JB_Callout";
+    src: url(fonts/JB-Callout.woff);
+}
+@font-face {
+    font-family: SmashingPrices;
+    src: url(fonts/SmashingPricesJBV5.woff);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 100dvh;
+    width: 100dvw;
+}
+
+.plan-container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.plan-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1000px;
+    min-width: 870px;
+    flex-wrap: wrap;
+}
+
+.plan {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 2px 2px 15px 4px rgb(214, 214, 214);
+
+    padding: 10px;
+    border-radius: 30px;
+    width: 250px;
+    height: 250px;
+    transition: 500ms;
+}
+
+.plan:hover {
+    transform:translateY(-5px) scale(105%);
+    transition: 500ms;
+    background-color: rgb(255, 255, 145);
+}
+
+.plan-selection {
+    transform:translateY(-5px) scale(105%);
+    background-color: rgb(255, 255, 37);
+}
+
+.plan h1 {
+    font-size: 550%;
+    margin: 0;
+    font-family: SmashingPrices, Helvetica, sans-serif;
+}
+
+.plan h3 {
+    font-size: 160%;
+    font-family: JB_Callout, Helvetica, sans-serif;
+}
+
+.divide {
+    border-top: 1px solid rgb(199, 199, 199);
+    width: 70%;
+}
+
+h1 {
+    font-family: Roboto, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+sup {
+    top: -.3em;
+    font-size: 70%;
+}
