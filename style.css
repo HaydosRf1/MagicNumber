@@ -53,9 +53,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 40px;
     background-color: rgb(243, 243, 243);
     box-shadow: 2px 2px 15px 4px rgb(214, 214, 214);
-
     padding: 10px;
     border-radius: 30px;
     width: 250px;
@@ -83,6 +83,8 @@ body {
 .plan h3 {
     font-size: 160%;
     font-family: JB_Callout, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .divide {
